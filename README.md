@@ -79,12 +79,12 @@ This internship gave me:
 
 ## Project Artifacts
 
-- 📄 `Internship_Report.pdf` (add link if uploaded)
-- 📊 `Sentiment_Analysis_Results.ipynb` (add link if code is included)
+- 📄 [`Internship_Report.pdf`](https://github.com/ferrindsouza/internship-nlp-sentiment-restaurant/blob/main/INTERNSHIP_REPORT.pdf)
+- 📊 [`Sentiment_Analysis_Results.ppt`](https://github.com/ferrindsouza/internship-nlp-sentiment-restaurant/blob/main/INTERNSHIP_PRESENTATION.pdf)
 
 ---
 
 ## Credits
 
-📌 **Intern:** [Your Name]  
-🔗 **LinkedIn:** [https://www.linkedin.com/in/your-linkedin-username](https://www.linkedin.com/in/your-linkedin-username)
+📌 **Intern:** Ferrin Dsouza  
+🔗 **LinkedIn:** [https://www.linkedin.com/in/ferrindsouza](https://www.linkedin.com/in/ferindsouza)
