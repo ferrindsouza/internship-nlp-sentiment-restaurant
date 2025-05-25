@@ -28,31 +28,44 @@ To create a **machine learning model** that can accurately classify the **sentim
 The steps carried out during the internship included:
 
 1. **Importing Dataset**  
-   Used a dataset of restaurant reviews for binary classification (positive/negative sentiment).
+   - Used a dataset of restaurant reviews for binary classification (positive/negative sentiment).
+   - Dataset has 10000 rows and 8 columns.
+   - We have to predict whether a review is "Positive" or "Negative".
 
 2. **Preprocessing**  
    - Text cleaning (lowercasing, removing punctuation, etc.)
    - Tokenization and stopword removal
    - Lemmatization
+   - **PortStemmer** method has been used for Stemming.
+   - I have also tried WordEmbedding with **LSTM**.
 
 3. **Vectorization**  
    - Employed techniques like **Bag-of-Words (BoW)** or **TF-IDF** for numerical representation of text.
 
-4. **Model Training & Evaluation**  
+5. **Model Training & Evaluation**  
    Models implemented:
    - **Multinomial Naive Bayes**
    - **Bernoulli Naive Bayes**
    - **Logistic Regression**
-   
+   - **LSTM**
+   - **Bi-Directional LSTM**
+   - **RandomForestClassifier**
+   - **SVM** and **KNN**.
+
    Performance was evaluated using metrics such as:
    - Accuracy
    - Precision
    - Recall
    - F1 Score
 
-5. **Result Analysis**  
+6. **Result Analysis**  
    - Compared performance of all models to identify the most accurate one.
    - Documented findings and suggested further improvements.
+
+## **Details**
+* From this Dataset, To Perform NLP Project, I decided to take **"Review"** and **"Rating columns"**.
+* Later After cleaning the columns, I converted **"Rating"** Column, which is actually a numerical column, into the column that has two labels **"Positive"** and **"Negative"**.
+* I considered Rating **Above 3** as **"Positive"** and **Below 3** as **"Negative"**.
 
 ## Outcome
 
